@@ -1,0 +1,66 @@
+This is bubble sort as it works well for sorted data
+
+
+
+
+
+random5000 sort1 0.064
+random10000 sort1 0.489
+random50000 sort1 17.066
+
+
+reversed5000 sort1 0.059
+reversed10000 sort1 0.474
+reversed50000 sort1 14.473
+
+
+sorted5000 sort1 0.015
+sorted10000 sort1 0.042
+sorted50000 sort1 7.427
+
+
+
+
+Sort 2 is merge sort because it scales better for large random and reversed numbers
+and it doesn't make much difference for sorted data because in merge sort all steps happen the
+same way irrespective of the data
+
+
+random5000 sort2 0.014
+random10000 sort2 0.049
+random50000 sort2 7.407
+
+
+reversed5000 sort2 0.011
+reversed10000 sort2 0.024
+reversed50000 sort2 8.888
+
+
+sorted5000 sort2 0.013
+sorted10000 sort2 0.027
+sorted50000 sort2 5.727
+
+
+
+
+
+
+
+
+
+
+
+
+
+random5000 sort3 0.037
+random10000 sort3 0.284
+random50000 sort3 14.161
+
+
+reversed5000 sort3 0.036
+reversed10000 sort3 0.231
+reversed50000 sort3 10.093
+
+sorted5000 sort3 0.063
+sorted10000 sort3 0.298
+sorted50000 sort3 12.221

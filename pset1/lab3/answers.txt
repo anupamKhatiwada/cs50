@@ -1,0 +1,14 @@
+sort1 uses: Bubble sort
+
+How do you know?: This is bubble sort as it works well for sorted data.
+
+sort2 uses: Merge sort
+
+How do you know?: Sort 2 is merge sort because it scales better for large random and reversed numbers
+and it doesn't make much difference for sorted data because in merge sort all steps happen the
+same way irrespective of the data
+
+sort3 uses: Selection sort
+
+How do you know?: Is selection sort by default
+
