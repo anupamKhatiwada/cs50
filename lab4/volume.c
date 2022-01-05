@@ -38,17 +38,25 @@ int main(int argc, char *argv[])
     // TODO: Copy header from input file to output file
 
 
-    byte sample;
+    // byte sample;
+
+    byte arr[HEADER_SIZE];
+
+
 
     int16_t data;
 
 
-    for(int i=0;i<HEADER_SIZE;i++){
-        if(fread(&sample,sizeof(byte),1,input)){
-            fwrite(&sample,sizeof(byte),1,output);
-        }else return 1;
-    }
+    // for(int i=0;i<HEADER_SIZE;i++){
+    //     if(fread(&sample,sizeof(byte),1,input)){
+    //         fwrite(&sample,sizeof(byte),1,output);
+    //     }else return 1;
+    // }
 
+    fread(arr,sizeof(byte)*HEADER_SIZE,1,input);
+
+
+    fwrite(arr,sizeof(byte)*HEADER_SIZE,1,output);
 
 
     // free(sample);
