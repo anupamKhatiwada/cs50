@@ -483,7 +483,13 @@ byte average(int i, int j,int height, int width, RGBTRIPLE image[height][width],
 
           if(arr[t]>=0 && arr[t]<height && arr[t+1]>=0 && arr[t+1]<width){
 
+            /*
 
+                In the edges filter only things we will be changing will be the contents
+                of this block of code. We will try do this in as functional a way as possible.
+
+
+            */
 
 
 
